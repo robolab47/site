@@ -29,7 +29,7 @@ ul{
 
 /* Header */
 .header{
-    padding: 20px;
+    padding: 25px;
     background: #1abc9c;
     box-shadow: 1px 1px 5px 0px var(--grey);
     color: white;
@@ -57,7 +57,7 @@ ul{
     position: fixed;
     overflow: hidden;
     background: #1abc9c;
-    margin-left: -20px;
+    margin-left: -25px;
     
 }
 
