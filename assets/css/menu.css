@@ -33,7 +33,7 @@ ul{
     background: #1abc9c;
     box-shadow: 1px 1px 5px 0px var(--grey);
     color: white;
-  font-size: 120%;
+  font-size: 1.3em;
     position: sticky;  
     top: 0;
     width: 100%;
