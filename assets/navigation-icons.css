@@ -58,16 +58,4 @@
     display:none;
 }
 
-@media (max-width: 800px) {
-    .menu-navigation-icons{
-        display:none;
-    }
 
-    .slicknav_nav a i {
-        display: none;
-    }
-
-    .slicknav_menu {
-        display:block;
-    }
-}
