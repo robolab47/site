@@ -64,11 +64,12 @@ ul{
     display: block;
     padding: 30px;
     color: var(--white);
-
+background: #1abc9c;
 }
 
 .menu a:hover{
-    background-color: var(--grey);
+    
+    background: #1abc9c;
 }
 
 .nav{
