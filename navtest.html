@@ -1,53 +1,50 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Icons Navigation</title>
+    <!-- App title -->
+    <title>Responsive Pure CSS Menu</title>
 
-    <link rel="stylesheet" href="assets/demo.css">
-    <link rel="stylesheet" href="assets/navigation-icons.css">
-   
-
-   <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
-
+    <!-- Link css file -->
+    <link rel="stylesheet" href="style.css">
 
 </head>
-
 <body>
+    
+    <!-- Navigation bar -->
+    <header class="header">
+        <!-- Logo -->
+        <a href="#" class="logo">LR</a>
 
-<nav class="menu-navigation-icons">
-    <a href="#" class="menu-magenta"><i class="fa fa-camera-retro"></i><span>Pictures</span></a>
-    <a href="#" class="menu-blue"><i class="fa fa-code"></i><span>Code</span></a>
-    <a href="#" class="menu-green"><i class="fa fa-comment"></i><span>Talks</span></a>
-    <a href="#" class="menu-yellow"><i class="fa fa-plane"></i><span>Travel</span></a>
-    <a href="#" class="menu-red"><i class="fa fa-heart"></i><span>Favorites</span></a>
-</nav>
+        <!-- Hamburger icon -->
+        <input class="side-menu" type="checkbox" id="side-menu"/>
+        <label class="hamb" for="side-menu"><span class="hamb-line"></span></label>
 
+        <!-- Menu -->
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Blog</a> </li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<div class="menu">
+    <!-- Main content -->
+    <main>
+        <article>
+            <h1>
+                Some content
+            </h1>
+            <p>
+                More Content
+            </p>
+        </article>
 
-   
-
-    <h1>Freebie: 4 Responsive Navigation Menus</h1>
-
-    <h2><a href="http://tutorialzine.com/2015/05/freebie-4-sweet-and-responsive-navigation-menus/">Download</a></h2>
-
-    <ul>
-        <li><a href="index.html">Basic</a></li>
-        <li><a href="navigation-icons.html" class="active">Icons</a></li>
-        <li><a href="navigation-dark.html">Icons Dark</a></li>
-        <li><a href="navigation-round.html">Round</a></li>
-    </ul>
-
-</div>
-
-
+    </main>
 
 </body>
-
 </html>
