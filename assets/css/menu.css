@@ -34,7 +34,7 @@ ul{
     box-shadow: 1px 1px 5px 0px var(--grey);
     color: white;
   font-size: 150%;
-  /*  position: sticky;  */
+    position: sticky;  
     top: 0;
     width: 100%;
     margin-bottom: 0.5ch;
