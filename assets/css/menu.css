@@ -150,6 +150,7 @@ background: #1abc9c;
         position: relative;
         float: right;
         width: fit-content;
+        background: #1abc9c;
     }
 
     .menu li{
