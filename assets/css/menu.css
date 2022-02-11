@@ -71,6 +71,9 @@ background: #1abc9c;
     
     background: #1abc9c;
 }
+.menu ul{
+        list-style: none;
+    }
 
 .nav{
     max-height: 0;
