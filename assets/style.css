@@ -81,7 +81,7 @@ blockquote {
   margin-left: .5em;
   font-style: italic;
   background: #f9f9f9;
-  border-left: .5em solid #ccc;
+  border-left: .2em solid #ccc;
   padding: .5em 10px;
 }
 
